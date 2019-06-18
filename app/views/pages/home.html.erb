@@ -1,2 +1,38 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style="background-image: url(<%= asset_path('banner.jpeg') %>)">
+  <div class="container">
+    <h1>Réveler votre potentiel!</h1>
+    <button type="button" class="btn btn-success btn-lg btn-banner">Contactez-moi</button>
+  </div>
+</div>
+
+<div class="presentation">
+  <div class="img-description">
+   <%= image_tag('imgalexandre.jpg') %>
+ </div>
+  <div class="txt-description">
+   <h1>QUI JE SUIS :</h1>
+   <p> “J’ai le plaisir, depuis onze ans, d’accompagner mes clients de tous horizons professionnels et sportifs jusqu’à l’aboutissement de leurs objectifs en matière de forme et de santé. Mon approche propose à mes clients une philosophie sportive du corps, de l’esprit et de l’alimentation adaptée à leurs quotidiens. Que le souhait soit la perte de poids, le renforcement musculaire, ou une échéance compétitive j’apporterai dès les premiers rendez-vous la mise en place d’un programme sur mesure pour des résultats visibles et rapides.”</p>
+ </div>
+</div>
+
+ <div class="bandeau-segmentation">
+<div class="cards">
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80)">
+    <h2>Sport & Fitness</h2>
+    <p>Les entrainements que je propose sont créés sur mesure, et sont exclusivement mis en place selon votre physionomie, votre état de forme et vos objectifs. Ils s’inscrivent dans une démarche globale en parallèle de la nutrition et de l’aspect psychologique. Que vous me demandiez de perdre du poids, de prendre du muscle, ou de vous remettre en forme, mettons en place un plan dès maintenant !</p>
+  </div>
+
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1528498033373-3c6c08e93d79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+    <h2>Nutrition & Balance</h2>
+    <p>La diététique est aussi importante que votre entrainement. Ce que vous mettez dans votre assiette conditionne votre forme sur de nombreux aspects. Il est essentiel d’analyser votre alimentation méticuleusement et d’observer les réactions de votre corps en fonction de ce que vous ingérez . Donnez dès  maintenant ce qu’il y a de mieux à votre corps pour atteindre le meilleur !</p>
+  </div>
+
+  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1497561813398-8fcc7a37b567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+    <h2>Accompagnement & Motivation</h2>
+    <p>Mon rôle est de vous accompagner au quotidien, vous supporter dans les moments difficiles pour vous accompagner jusqu’à votre objectif. De nombreux clients font appel à moi parce qu’ils savent que je ne les lâcherai pas, que je serais une source de motivation. Même les jours sans envie, je serai présent pour vous emporter au-delà de l’effort jusqu’au plaisir d’une bonne séance achevée !</p>
+  </div>
+</div>
+
+</div>
+
+
