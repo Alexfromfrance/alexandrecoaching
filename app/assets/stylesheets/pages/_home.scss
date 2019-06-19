@@ -46,6 +46,23 @@
 }
 
 .bandeau-segmentation {
-  height: 400px;
+  height: 500px;
   background-color: black;
+  h1 {
+    color:white;
+    padding-left: 15px;
+  }
 }
+
+.bandeau-segmentation-blanc {
+  height: 500px;
+  background-color: white;
+  h1 {
+    color:black;
+    padding-left: 15px;
+  }
+}
+
+
+
+
