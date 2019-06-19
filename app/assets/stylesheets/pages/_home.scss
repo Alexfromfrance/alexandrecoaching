@@ -46,7 +46,7 @@
 }
 
 .bandeau-segmentation {
-  height: 500px;
+  height: 550px;
   background-color: black;
   h1 {
     color:white;
@@ -61,6 +61,15 @@
     color:black;
     padding-left: 15px;
   }
+}
+
+#mce-LNAME {
+  height: 150px;
+   -webkit-appearance: textarea;
+}
+
+.temoignage {
+  display: flex;
 }
 
 
