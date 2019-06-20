@@ -1,33 +1,4 @@
 // Specific CSS for your home-page
-.banner {
-  background-size: cover;
-  background-position: center;
-  padding: 150px 0;
-  height: 80vh;
-}
-
-.banner h1 {
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 48px;
-  font-weight: bold;
-}
-
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
-
-.btn-banner {
-  color:#F58426;
-  text-align: center;
-  background-color:black;
-  border-radius: 4px;
-  border: 1px solid #32a1ce;
-}
 
 .img-description {
   width: 50px;
@@ -43,13 +14,20 @@
 .txt-description {
   text-justify: auto;
   width: 400px;
+  color: $dark-gray;
+  text-shadow: 1px 1px 1px $light-gray;
+  p {
+    font-style: italic;
+  }
 }
 
 .bandeau-segmentation {
   height: 550px;
-  background-color: black;
+  background-color: $dark-gray;
   h1 {
-    color:white;
+    color: white;
+    text-shadow: 1px 1px 1px $gray;
+    padding-top: 15px;
     padding-left: 15px;
   }
 }
@@ -58,14 +36,11 @@
   height: 500px;
   background-color: white;
   h1 {
-    color:black;
+    color:$dark-gray;
+    text-shadow: 1px 1px 1px $light-gray;
+   padding-top: 15px;
     padding-left: 15px;
   }
-}
-
-#mce-LNAME {
-  height: 150px;
-   -webkit-appearance: textarea;
 }
 
 .temoignage {
