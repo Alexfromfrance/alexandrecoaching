@@ -7,7 +7,7 @@
   padding: 15px 15px;
   .txt-description {
     text-justify: auto;
-     padding: 15px;
+    padding: 15px;
     width: 900px;
     color: $dark-gray;
     text-shadow: 1px 1px 1px $light-gray;
@@ -24,21 +24,25 @@
 }
 
 .bandeau-segmentation {
-  background-color: $dark-gray;
-  h1, span {
+  background-color: black;
+  h1 {
     color: white;
-    text-shadow: 1px 1px 1px $gray;
+    text-shadow: 1px 1px 1px $light-gray;
     padding-top: 15px;
     padding-left: 15px !important;
+  }
+  .resume {
+    color: #999999;
+    padding: 15px 15px !important;
   }
 }
 
 .bandeau-segmentation-blanc {
   background-color: white;
   h1 {
-    color:$dark-gray;
+    color: $dark-gray;
     text-shadow: 1px 1px 1px $light-gray;
-   padding-top: 15px;
+    padding-top: 15px;
     padding-left: 15px;
   }
 }
@@ -46,7 +50,3 @@
 .temoignage {
   display: flex;
 }
-
-
-
-
