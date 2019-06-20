@@ -8,11 +8,17 @@
   .txt-description {
     text-justify: auto;
      padding: 15px;
-    width: 400px;
+    width: 900px;
     color: $dark-gray;
     text-shadow: 1px 1px 1px $light-gray;
     p {
       font-style: italic;
+      text-align: justify;
+    }
+    h1 {
+      border-bottom: 1px solid black;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
     }
   }
 }
