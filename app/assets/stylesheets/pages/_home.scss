@@ -1,28 +1,24 @@
 // Specific CSS for your home-page
 
-.img-description {
-  width: 50px;
-  border-radius: 6px;
-}
-
 .presentation {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px;
-}
-
-.txt-description {
-  text-justify: auto;
-  width: 400px;
-  color: $dark-gray;
-  text-shadow: 1px 1px 1px $light-gray;
-  p {
-    font-style: italic;
+  .img-description {
+    border-radius: 6px;
+  }
+  .txt-description {
+    text-justify: auto;
+    width: 400px;
+    color: $dark-gray;
+    text-shadow: 1px 1px 1px $light-gray;
+    p {
+      font-style: italic;
+    }
   }
 }
 
 .bandeau-segmentation {
-  height: 550px;
   background-color: $dark-gray;
   h1 {
     color: white;
@@ -33,7 +29,6 @@
 }
 
 .bandeau-segmentation-blanc {
-  height: 500px;
   background-color: white;
   h1 {
     color:$dark-gray;
