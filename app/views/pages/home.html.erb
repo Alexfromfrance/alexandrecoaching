@@ -1,6 +1,8 @@
 <div class="banner">
-    <h1>Réveler votre potentiel</h1>
+  <div class="container">
+    <h1>Réveler votre potentiel!</h1>
     <button type="button" class="btn btn-success btn-lg btn-banner">Contactez-moi</button>
+  </div>
 </div>
 
 <div class="presentation">
@@ -16,17 +18,17 @@
 <div class="bandeau-segmentation">
   <h1>UNE METHODE, TROIS FACTEURS :</h1>
   <div class="cards">
-    <div class="card-category factors" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80)">
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80)">
       <h2>Sport & Fitness</h2>
       <p>Les entrainements que je propose sont créés sur mesure, et sont exclusivement mis en place selon votre physionomie, votre état de forme et vos objectifs. Ils s’inscrivent dans une démarche globale en parallèle de la nutrition et de l’aspect psychologique. Que vous me demandiez de perdre du poids, de prendre du muscle, ou de vous remettre en forme, mettons en place un plan dès maintenant !</p>
     </div>
 
-    <div class="card-category factors" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1528498033373-3c6c08e93d79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1528498033373-3c6c08e93d79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
       <h2>Nutrition & Balance</h2>
       <p>La diététique est aussi importante que votre entrainement. Ce que vous mettez dans votre assiette conditionne votre forme sur de nombreux aspects. Il est essentiel d’analyser votre alimentation méticuleusement et d’observer les réactions de votre corps en fonction de ce que vous ingérez . Donnez dès  maintenant ce qu’il y a de mieux à votre corps pour atteindre le meilleur !</p>
     </div>
 
-    <div class="card-category factors" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1497561813398-8fcc7a37b567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(https://images.unsplash.com/photo-1497561813398-8fcc7a37b567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)">
       <h2>Accompagnement & Motivation</h2>
       <p>Mon rôle est de vous accompagner au quotidien, vous supporter dans les moments difficiles pour vous accompagner jusqu’à votre objectif. De nombreux clients font appel à moi parce qu’ils savent que je ne les lâcherai pas, que je serais une source de motivation. Même les jours sans envie, je serai présent pour vous emporter au-delà de l’effort jusqu’au plaisir d’une bonne séance achevée !</p>
     </div>
@@ -37,56 +39,36 @@
   <h1>QUELQUES AVIS CLIENTS :</h1>
   <div class="temoignage">
     <div class="notification">
-      <img src='https://kitt.lewagon.com/placeholder/users/arthur-littm' class="avatar-large"/>
+      <%= image_tag('temoignageguillaume.jpg') %>
       <div class="notification-content">
-        <p><small>14th January</small></p>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</p>
-      </div>
-
-      <div class="notification-actions">
-        <a href="#">Edit <i class="fas fa-pencil-alt"></i></a>
-        <a href="#">Delete <i class="far fa-trash-alt"></i></a>
+        <p>“Je suis le programme d’Alex depuis presque 2 ans et je vois très nettement les résultats ! ”</p>
+        <p><small>Guillaume G, Intervenant pédagogique.</small></p>
       </div>
     </div>
 
     <div class="notification">
-      <img src='https://kitt.lewagon.com/placeholder/users/Eschults' class="avatar-large"/>
+      <%= image_tag('temoignagemarie.jpg') %>
       <div class="notification-content">
-        <p><small>9th January</small></p>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</p>
-      </div>
-
-      <div class="notification-actions">
-        <a href="#">Edit <i class="fas fa-pencil-alt"></i></a>
-        <a href="#">Delete <i class="far fa-trash-alt"></i></a>
-      </div>
+        <p>“J’avais arrêté le sport après mes études bien que j’avais une salle de sport en bas de chez moi. Maintenant qu’Alex sonne chez moi, plus le choix.”</p>
+        <p><small>Marie HDK, Juriste.</small></p>
       </div>
     </div>
+  </div>
 
-    <div class="temoignage">
+  <div class="temoignage">
     <div class="notification">
-      <img src='https://kitt.lewagon.com/placeholder/users/Eschults' class="avatar-large"/>
+      <%= image_tag('temoignageben.png') %>
       <div class="notification-content">
-        <p><small>9th January</small></p>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</p>
-      </div>
-
-      <div class="notification-actions">
-        <a href="#">Edit <i class="fas fa-pencil-alt"></i></a>
-        <a href="#">Delete <i class="far fa-trash-alt"></i></a>
+        <p>“Le sport est une obligation professionnelle dans mon milieu mais les tests spécifiques restent une épreuve. Alex m’a aidé dans ma programmation.”</p>
+        <p><small>Ben N, Garde du corps.</small></p>
       </div>
     </div>
 
     <div class="notification">
-      <img src='https://kitt.lewagon.com/placeholder/users/Eschults' class="avatar-large"/>
+      <%= image_tag('temoignageboris.png') %>
       <div class="notification-content">
-        <p><small>9th January</small></p>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit.</p>
-      </div>
-
-      <div class="notification-actions">
-        <a href="#">Edit <i class="fas fa-pencil-alt"></i></a>
-        <a href="#">Delete <i class="far fa-trash-alt"></i></a>
+        <p>“Avec le pro et la vie de parent, je n’avais jamais la motivation. J’ai choisi la formule 7h30 à 9h je suis au bureau après ma séance”</p>
+        <p><small>Boris B, CEO Fixo.</small></p>
       </div>
     </div>
   </div>
@@ -166,7 +148,7 @@ Avec ou sans matériel</br>
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-#mc_embed_signup{background:#fff; clear:left; font:14px Roboto,sans-serif; color: #333; }
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
   /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
@@ -186,7 +168,7 @@ Avec ou sans matériel</br>
       </div>
       <div class="mc-field-group">
         <label for="mce-LNAME">Votre demande </label>
-        <textarea name="LNAME" cols="80" rows="10" value="" id="mce-LNAME"></textarea>
+        <textarea name="LNAME" cols="40" rows="10" value="" id="mce-LNAME"></textarea>
         <!-- <input type="textarea" cols="40" rows="10" value="" name="LNAME" class="" id="mce-LNAME"> -->
       </div>
       <div class="mc-field-group size1of2">
