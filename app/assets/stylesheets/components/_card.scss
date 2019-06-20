@@ -3,21 +3,16 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   padding: 15px;
-.card-category {
-  border-radius:4px;
-  padding:10px;
-}
-
-.factors {
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white !important;
-  text-shadow: 1px 1px 1px $gray;
-}
-
-.price {
-  color: $light-gray;
-}
+  .card-category {
+    border-radius:4px;
+    padding:10px;
+  }
+  .factors {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important;
+    text-shadow: 1px 1px 1px $gray;
+  }
 }
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
