@@ -3,12 +3,11 @@
 .presentation {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  .img-description {
-    border-radius: 6px;
-  }
+  align-items: center;
+  padding: 15px 15px;
   .txt-description {
     text-justify: auto;
+     padding: 15px;
     width: 400px;
     color: $dark-gray;
     text-shadow: 1px 1px 1px $light-gray;
