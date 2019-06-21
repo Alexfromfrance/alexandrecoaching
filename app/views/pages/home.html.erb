@@ -1,22 +1,20 @@
-<body>
-
   <div class="banner">
     <div class="container">
       <h1>REVELEZ <br>
         VOTRE <br> POTENTIEL</h1>
         <button type="button" class="btn btn-success btn-lg btn-banner">Contactez-moi</button>
+      </div>
     </div>
-  </div>
 
-  <div class="presentation">
-    <div class="img-description">
+    <div class="presentation">
+      <div class="img-description">
        <%= image_tag('imgalexandre.jpg') %>
-    </div>
-    <div class="txt-description">
+     </div>
+     <div class="txt-description">
        <h1>QUI JE SUIS :</h1>
        <p> “J’ai le plaisir, depuis onze ans, d’accompagner mes clients de tous horizons professionnels et sportifs jusqu’à l’aboutissement de leurs objectifs en matière de forme et de santé. Mon approche propose à mes clients une philosophie sportive du corps, de l’esprit et de l’alimentation, adaptée à leur quotidien. Que la cible soit la perte de poids, le renforcement musculaire ou encore une échéance compétitive, je mets en place dès les premiers rendez-vous un programme sur mesure pour des résultats visibles et rapides.”</p>
-    </div>
-  </div>
+     </div>
+   </div>
 
    <div class="methode">
     <div class="cards"></div>
@@ -44,6 +42,137 @@
       </div>
 </div>
   </div>
+
+  <html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Testimonial_159</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  </head>
+
+  <body>
+
+    <div class="container reviews">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="testimonial-slider" class="owl-carousel">
+
+               <div class="testimonial">
+              <div class="testimonial-content">
+                <p>“J’avais arrêté le sport après mes études bien que j’avais une salle de sport en bas de chez moi. Maintenant qu’Alex sonne chez moi, plus le choix.”
+                </p>
+              </div>
+              <div class="testimonial-info">
+                <div class="pic">
+                  <%= image_tag('temoignagemarie.jpg') %>
+               </div>
+               <h3 class="testimonial-title">
+                <a href="#">Marie HDK, juriste.</a>
+              </h3>
+            </div>
+          </div>
+
+            <div class="testimonial">
+              <div class="testimonial-content">
+                <p>“Je suis le programme d’Alex depuis presque 2 ans et je vois très nettement les résultats !” <br><br>
+                </p>
+              </div>
+              <div class="testimonial-info">
+                <div class="pic">
+                 <%= image_tag('temoignageguillaume.jpg') %>
+               </div>
+               <h3 class="testimonial-title">
+                <a href="#">Guillaume P, intervenant pédagogique</a>
+              </h3>
+            </div>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial-content">
+              <p>“Avec le pro et la vie de parent, je n’avais jamais la motivation. J’ai choisi la formule 7h30 à 9h je suis au bureau après ma séance”
+              </p>
+            </div>
+            <div class="testimonial-info">
+              <div class="pic">
+               <%= image_tag('temoignageboris.png') %>
+             </div>
+             <h3 class="testimonial-title">
+              <a href="#">Boris B, CEO Fixo</a>
+            </h3>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <p>“Le sport est une obligation professionnelle dans mon milieu mais les tests spécifiques restent une épreuve. Alex m’a aidé dans ma programmation.”
+            </p>
+          </div>
+          <div class="testimonial-info">
+            <div class="pic">
+              <%= image_tag('temoignageben.png') %>
+            </div>
+            <h3 class="testimonial-title">
+              <a href="#">Ben N, garde du corps.</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+<script>
+
+  $(document).ready(function(){
+
+    $("#testimonial-slider").owlCarousel({
+
+      items:2,
+
+      itemsDesktop:[1000,2],
+
+      itemsDesktopSmall:[979,2],
+
+      itemsTablet:[768,1],
+
+      pagination:true,
+
+      navigation:false,
+
+      slideSpeed:1000,
+
+      singleItem:false,
+
+      navigationText:["",""],
+
+      autoPlay:true
+
+    });
+
+  });
+
+</script>
+
+</body>
+
+</html>
 
 <!-- <div class="bandeau-segmentation">
   <h1>QUELQUES AVIS CLIENTS :</h1>
@@ -126,4 +255,22 @@
   </div>
 </div>
 
-</body>
+<div class="price">
+  <!--   <i class="fas fa-share-alt"></i> -->
+  <h4>Programme à distance</h4>
+</br>
+Programme mensuel</br>
+En salle/domicile/extérieur</br>
+Français/Anglais parlé</br>
+Conseil nutritionnel sur demande</br>
+Avec ou sans matériel</br>
+10 mails ou 1h appel/mois</br></br>
+
+60€/programme
+250€/5 programmes
+500€/prog annuelle</p>
+</div>
+</div>
+</div>
+
+
