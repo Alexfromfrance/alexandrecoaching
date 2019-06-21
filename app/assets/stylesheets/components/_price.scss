@@ -1,26 +1,25 @@
 .pricing {
   position: relative;
-  background-image: url(price1.jpeg);
+  background-image: url(shoes.jpeg);
   background-size: 80%;
   background-position: left top;
   background-repeat: no-repeat;
-  background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
   text-align: right;
   padding-top: 5vmin;
   padding-right: 10vw;
-  height: 70vmin;
+  height: 90vh;
   .price {
     h2 {
-      font-size: 3vmin;
+      font-size: 3.5vmin;
       color: $light-gray;
       margin-top: 0px !important;
-      padding-top: 1vmin;
+      padding-top: 2vmin;
     }
     p {
-      font-size: 1.5vmin;
+      font-size: 2vmin;
       color: white;
     }
   }
