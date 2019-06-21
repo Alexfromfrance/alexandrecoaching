@@ -1,30 +1,26 @@
 .methode {
   position: relative;
   background-image: url(methodeimage.jpeg);
-  background-size: 80% 80%;
-  background-position: right;
+  background-size: 80%;
+  background-position: right top;
   background-repeat: no-repeat;
-  height: 90vh;
   display: flex;
   flex-direction: column;
-  .cards {
-    text-align: left;
-    padding-left: 20px;
-    position:absolute;
-    top: 120px;
-    left: 8%;
+  text-align: left;
+  padding-top: 5vmin;
+  padding-left: 10vw;
+  height: 70vmin;
+    h2 {
+      font-size: 3vmin;
+      color: $light-gray;
+      margin-top:0px !important;
+      padding-top: 1vmin;
+    }
+    p {
+      font-size: 1.5vmin;
+      color: white;
+    }
   }
-  .card-method {
-  h2 {
-    font-size: 3vmin;
-    color: $light-gray;
-  }
-  p {
-    font-size: 1.5vmin;
-    color: white;
-  }
-}
-}
 
 
 
