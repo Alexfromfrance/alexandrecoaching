@@ -1,0 +1,33 @@
+.methode {
+  position: relative;
+  background-image: url(methodeimage.jpeg);
+  background-size: 70%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 100vh;
+  h1 {
+    position:absolute;
+    right: 8%;
+    text-align: right;
+    top: 30px;
+    color: white;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 20px;
+    right: 8%;
+    text-align: right;
+    color:white;
+    width: 600px;
+  }
+}
+
+i {
+    font-size: 50px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
