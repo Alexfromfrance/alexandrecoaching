@@ -1,26 +1,36 @@
 .pricing {
-  position: relative;
-  background-image: url(shoes.jpeg);
-  background-size: 80%;
-  background-position: left top;
-  background-repeat: no-repeat;
+  // position: relative;
+  // background-image: url(shoes.jpeg);
+  // background-size: 80%;
+  // background-position: left top;
+  // background-repeat: no-repeat;
   color: white;
+
+  // align-items: flex-end;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  text-align: right;
-  padding-top: 5vmin;
-  padding-right: 10vw;
-  height: 90vh;
-  .price {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.price {
+  // overflow: hidden;
+  background: white;
+  border-radius:4px;
+  padding: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 30%;
+  text-align: center;
     h2 {
-      font-size: 3.5vmin;
-      color: $light-gray;
+      font-size: 3vmin;
+      color: black;
       margin-top: 0px !important;
-      padding-top: 2vmin;
+      padding-top: 1vmin;
     }
     p {
       font-size: 2vmin;
-      color: white;
+      color: black;
     }
-  }
 }
+
