@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  get 'contacts/new', to: 'pages#home'
-  get 'contacts/create', to: 'pages#home'
+  match '/contacts',     to: 'pages#home',             via: 'get'
+  resources "contacts", only: [:new, :create]
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

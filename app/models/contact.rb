@@ -1,11 +1,14 @@
 class Contact < MailForm::Base
-  validates :name, :email, :phone, :content, presence: true
+  attribute :name, presence: true
+  attribute :email, validate: /\A([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})\z/i
+  attribute :phone, presence: true
+  attribute :content, presence: true
 
-    def headers
+  def headers
     {
-      :subject => "Nouvelle demance de coaching",
-      :to => "alexandre@alexandrecoaching.com",
-      :from => %("#{name}" <#{email}>)
+      subject: "Nouvelle demance de coaching",
+      to: "alexandre@alexandrecoaching.com",
+      from: %("#{name}" <#{email}>)
     }
   end
 end
