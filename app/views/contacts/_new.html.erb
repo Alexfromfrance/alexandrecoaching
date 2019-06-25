@@ -1,0 +1,14 @@
+<div align="center">
+  <h3>Envoyez-moi votre demande :</h3>
+
+  <%= simple_form_for @contact do |f| %>
+    <%= f.input :name, :required => true %>
+    <%= f.input :email, :required => true %>
+    <%= f.input :phone, :required => true %>
+    <%= f.textarea :content, :required => true %>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
