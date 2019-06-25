@@ -1,9 +1,9 @@
 # Preview all emails at http://localhost:3000/rails/mailers/user_mailer
-class UserMailerPreview < ActionMailer::Preview
+class ContactMailerPreview < ActionMailer::Preview
 
-  def contact
-    user = User.first
+  def contactuser
+    contact = Contact.first
     # This is how you pass value to params[:user] inside mailer definition!
-    UserMailer.with(user: user).welcome
+    ContactMailer.with(contact: contact).welcome
   end
 end

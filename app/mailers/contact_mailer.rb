@@ -1,4 +1,4 @@
-class UserMailer < ApplicationMailer
+class ContactMailer < ApplicationMailer
 
   default from: "alexandre@alexandrecoaching.com"
   default to: "alexandre@alexandrecoaching.com"
@@ -9,9 +9,9 @@ class UserMailer < ApplicationMailer
   end
 
  def welcome_email
-    @user = params[:user]
-    @url  = 'http://alexandrecoaching.com'
-    mail(to: @user.email, subject: 'Merci pour votre demande de contact')
+    @contact = params[:contact]
+    @url = 'http://alexandrecoaching.com'
+    mail(to: @contact.email, subject: 'Merci pour votre demande de contact')
   end
 
 end
