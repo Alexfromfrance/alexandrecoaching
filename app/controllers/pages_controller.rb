@@ -3,4 +3,18 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def send_mail
+    if MessageMailer.new_message(contact_params).deliver_now
+      redirect_to root_path
+      flash[:notice] = 'Your messages has been sent.'
+    end
+  end
+
+  private
+
+  def contact_params
+    params.require(:contact).permit(:name, :email, :subject, :content)
+  end
+
 end
