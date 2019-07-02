@@ -1,36 +1,33 @@
 .pricing {
-  // position: relative;
-  // background-image: url(shoes.jpeg);
-  // background-size: 80%;
-  // background-position: left top;
-  // background-repeat: no-repeat;
+  display:flex;
+}
+
+.pricing p {
+   font-size: 15px;
+}
+
+.coaching {
   color: white;
-
-  // align-items: flex-end;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.price {
-  // overflow: hidden;
-  background: white;
-  border-radius:4px;
-  padding: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  width: 30%;
-  text-align: center;
-    h2 {
-      font-size: 3vmin;
-      color: black;
-      margin-top: 0px !important;
-      padding-top: 1vmin;
-    }
-    p {
-      font-size: 2vmin;
-      color: black;
-    }
+  border: 1px solid white;
+  margin: 20px;
+  width: 22%;
+  text-align:center;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,1);
 }
 
+.img-coaching-perso {
+  background-image: url(coachingpersonnel.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.4;
+}
+
+.img-coaching-perso p {
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0,0,0,1);
+  opacity: 1 !important;
+  text-align:center;
+  font-weight: bold;
+}
