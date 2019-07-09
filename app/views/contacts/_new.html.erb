@@ -1,0 +1,14 @@
+<div class="form-contact">
+  <h3>Envoyez-moi votre demande :</h3>
+
+  <%= simple_form_for @contact do |f| %>
+    <%= f.input :name, label: "Prénom & Nom", required: true %>
+    <%= f.input :email,  label: "Email", required: true %>
+    <%= f.input :phone, label: "Téléphone", required: true %>
+    <%= f.text_area :content, placeholder: 'Votre demande...', cols: "40", rows: "10", required: true %>
+    <div>
+      </br>
+      <%= f.button :submit, 'Envoyer', class: "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>
