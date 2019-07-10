@@ -1,15 +1,17 @@
 .pricing{
   display:flex;
+  flex-wrap: wrap;
 }
 
 .card-trip {
+  flex: 2 2 20em;
   overflow: hidden;
   background: black;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
   margin: 10px;
   width: 32%;
   border-radius: 4px;
-    border: 1px solid rgb(235,235,235);
+  border: 1px solid rgb(235,235,235);
 }
 
 .card-trip > img {
