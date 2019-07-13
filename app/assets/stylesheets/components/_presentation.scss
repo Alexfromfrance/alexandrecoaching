@@ -1,6 +1,7 @@
 .presentation {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   height: 50vh;
   background-color:black;
@@ -11,10 +12,10 @@
     color: white;
     p {
       font-style: italic;
-      font-size: 2vmin;
+      font-size: 1em;
     }
     h1 {
-      font-size: 4vmin;
+      font-size: 2em;
       border-bottom: 1px solid white;
       margin-bottom: 15px;
       padding-bottom: 15px;
