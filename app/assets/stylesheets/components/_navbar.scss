@@ -3,6 +3,7 @@
   z-index: 9999;
   padding-bottom: 20px;
   padding-top: -40px !important;
+  color:red;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -11,5 +12,14 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 200px !important;
-  padding-left: 10px;
+
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+  display:none;
+  }
+  .navbar-lewagon .navbar-brand img {
+  padding-left: 0;
+  }
 }
