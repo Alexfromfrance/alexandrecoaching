@@ -6,13 +6,13 @@
   background-repeat: no-repeat;
   background-color: black;
   padding: 200px 15px;
-  height: 100vh;
+  height: 90vh;
 }
 
 .banner h1 {
   position: absolute;
   top: 50px;
-  left: 8%;
+  left: 10%;
   color: white;
   text-shadow: 1px 1px 5px rgba(211,211,211,0.6);
   font-size: 64px;
@@ -21,7 +21,7 @@
 
 .btn-banner {
   position: absolute;
-  left: 8%;
+  left: 10%;
   top: 300px;
   color:white;
   text-align: center;
@@ -43,6 +43,8 @@
   background-size: 100%;
   margin-top: 30px;
   background-position: top;
+  height: 30vh;
+  padding: 0;
   }
   .banner h1 {
   position:static;
